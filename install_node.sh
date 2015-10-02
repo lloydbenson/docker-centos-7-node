@@ -24,6 +24,9 @@ source ~/.bashrc
 echo "Installing version ${NODE_VERSION} of node"
 nvm install ${NODE_VERSION}
 
+echo "Setting default node for nvm"
+nvm alias default stable
+
 echo "Installing version ${NPM_VERSION} of npm"
 npm -g install npm@${NPM_VERSION}
 
