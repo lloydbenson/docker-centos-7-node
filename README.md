@@ -8,5 +8,3 @@ nvm --version
 npm --version
 node --version
 ```
-
-Note: this creates a docker user and puts you in the /home/docker directory.  Includes gcc, gcc-g++, make, sudo, and git packages.
