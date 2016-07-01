@@ -7,4 +7,4 @@ docker run -it --name=test lloydbenson/docker-centos-7-node /bin/bash
 npm --version
 node --version
 ```
-CURRENT_VERSION: v4.4.5
+CURRENT_VERSION: v4.4.7
